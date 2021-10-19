@@ -5,10 +5,6 @@
 
 trigger:
 - main
-- task: DotNetCoreCLI@2
-  inputs:
-    command: 'restore'
-    feedsToUse: 'select'
 pool:
   vmImage: ubuntu-latest
 
